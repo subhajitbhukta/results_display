@@ -132,7 +132,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/igss': {
-        target: 'http://your-backend-url',
+        target: 'https://finaltsr.com',
         changeOrigin: true,
         secure: false,
       }
@@ -141,7 +141,7 @@ export default defineConfig({
 })`}
                                     </pre>
                                 </li>
-                                <li>Replace <code className="bg-blue-100 px-2 py-1 rounded">http://your-backend-url</code> with your actual backend URL</li>
+                                {/* <li>Replace <code className="bg-blue-100 px-2 py-1 rounded">http://your-backend-url</code> with your actual backend URL</li> */}
                                 <li>Restart your Vite dev server</li>
                             </ol>
                         </div>
