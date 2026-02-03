@@ -14,7 +14,7 @@ const Display = () => {
         queryKey: ['teamResults'],
         queryFn: async () => {
             try {
-                const response = await axios.get('/igss/api/6795273/result', {
+                const response = await axios.get('https://finaltsr.com//igss/api/6795273/result', {
                     headers: {
                         'Cache-Control': 'no-cache',
                         'Pragma': 'no-cache',
@@ -55,7 +55,7 @@ const Display = () => {
         queryKey: ['individualResults'],
         queryFn: async () => {
             try {
-                const response = await axios.get('/igss/api/67952737/result', {
+                const response = await axios.get('https://finaltsr.com//igss/api/67952737/result', {
                     headers: {
                         'Cache-Control': 'no-cache',
                         'Pragma': 'no-cache',
