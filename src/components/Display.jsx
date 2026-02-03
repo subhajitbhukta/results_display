@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Trophy, Users, User, Target } from 'lucide-react';
 import { useQuery } from '@tanstack/react-query';
 import axios from 'axios';
-import TeamRankings from './TeamRankings';
+import TeamRankings from './Teamrankings';
 import AllAroundIndividual from './AllAroundIndividual';
 import ApparatusScores from './ApparatusScores';
 
