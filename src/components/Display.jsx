@@ -3,8 +3,8 @@ import { Trophy, Users, User, Target } from 'lucide-react';
 import { useQuery } from '@tanstack/react-query';
 import axios from 'axios';
 import TeamRankings from './Teamrankings';
-import AllAroundIndividual from './AllAroundIndividual';
-import ApparatusScores from './ApparatusScores';
+import AllAroundIndividual from './Allaroundindividual';
+import ApparatusScores from './Apparatusscores';
 
 const Display = () => {
     const [activeTab, setActiveTab] = useState('team');
