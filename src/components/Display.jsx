@@ -117,7 +117,7 @@ const Display = () => {
                     <h2 className="text-2xl font-bold text-gray-800 mb-4 text-center">Error Loading Results</h2>
                     <p className="text-gray-600 mb-6 text-center">{errorMessage}</p>
                     
-                    {isProxyError && (
+                    {/* {isProxyError && (
                         <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 text-sm">
                             <p className="font-semibold text-blue-900 mb-2">Setup Instructions:</p>
                             <ol className="list-decimal list-inside space-y-2 text-blue-800">
@@ -145,7 +145,7 @@ export default defineConfig({
                                 <li>Restart your Vite dev server</li>
                             </ol>
                         </div>
-                    )}
+                    )} */}
                 </div>
             </div>
         );
